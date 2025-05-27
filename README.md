@@ -23,6 +23,11 @@ To analyze and understand the Titanic dataset using statistical summaries and vi
 
 ---
 
+## Dataset
+The dataset used is the [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset) from Kaggle.
+
+----
+
 ## 📊 What Was Done
 
 1. **Loaded and cleaned the dataset**  
