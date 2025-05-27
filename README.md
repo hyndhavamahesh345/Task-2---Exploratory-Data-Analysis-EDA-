@@ -1,28 +1,56 @@
-# Task-2
-# Titanic Dataset EDA
+## 📌 Task 2: AI & ML Internship Assignment
+# 🚢 Titanic Dataset - Exploratory Data Analysis (EDA)
+This repository contains an exploratory data analysis (EDA) project on the Titanic dataset, as part of the Task 2 assignment for the AI & ML Internship.
 
-## Objective
-Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify trends and insights that may help in predictive modeling.
+---
 
-## Tools Used
+## 🎯 Objective
+
+To analyze and understand the Titanic dataset using statistical summaries and visualizations in order to:
+- Identify patterns in the data
+- Understand relationships between features
+- Gain insights into survival rates based on demographic and travel attributes
+
+---
+
+## 🧰 Tools and Libraries Used
+
 - Python
+- Google Colab
 - Pandas
 - Matplotlib
 - Seaborn
-- Plotly (optional)
 
-## What I Did
-- Loaded and cleaned Titanic dataset
-- Visualized distributions using histograms and boxplots
-- Analyzed correlations using heatmaps
-- Compared survival rates across gender, class, age, and fare
+---
 
-## Key Insights
-- Females had a higher survival rate than males
-- Passengers in 1st class had better survival chances
-- Younger passengers were more likely to survive
-- Higher fare correlates with better survival odds
+## 📊 What Was Done
 
-## How to Run
-Clone the repo and open `Titanic_EDA.ipynb` in Jupyter Notebook or Google Colab.
+1. **Loaded and cleaned the dataset**  
+   - Handled missing values  
+   - Removed irrelevant columns  
+
+2. **Generated summary statistics**  
+   - Used `describe()`, `info()`, and `isnull()`  
+
+3. **Visualized distributions**  
+   - Histograms and boxplots for Age and Fare  
+
+4. **Explored feature relationships**  
+   - Correlation heatmaps  
+   - Pairplots  
+   - Countplots for gender, class, survival  
+
+5. **Identified insights and patterns**  
+   - Analyzed survival rates by gender, class, age, and fare  
+
+---
+
+## 🔍 Key Insights
+
+- 🧑‍🤝‍🧑 **Gender**: Females had a much higher survival rate than males.
+- 🛏 **Class**: 1st class passengers were more likely to survive than 2nd or 3rd class.
+- 👶 **Age**: Younger passengers (especially children) had higher chances of survival.
+- 💸 **Fare**: Passengers who paid higher fares had better survival odds.
+
+
 
